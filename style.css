@@ -1,0 +1,50 @@
+#hangman {
+    width: 200px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+#hangman > div {
+    background-color: #000;
+    position: absolute;
+    margin-top: 3rem;
+}
+
+#head {
+    width: 100px;
+    height: 100px;
+    top: 0;
+    left: 50px;
+    border-radius: 50%;
+}
+
+#body {
+    width: 20px;
+    height: 100px;
+    top: 100px;
+    left: 80px;
+}
+
+#left-arm, #right-arm {
+    width: 100px;
+    height: 20px;
+    top: 100px;
+    left: 0;
+}
+
+#right-arm {
+    left: 100px;
+}
+
+#left-leg, #right-leg {
+    width: 20px;
+    height: 100px;
+    top: 200px;
+    left: 80px;
+}
+
+#right-leg {
+    left: 100px;
+}
+
+
